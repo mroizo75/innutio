@@ -1,0 +1,49 @@
+.prosjekt-gantt-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gantt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gantt-kontroller select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.laster, .feil {
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.laster {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.feil {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.prosjekt-statistikk {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.oppgave-tooltip {
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+} 
